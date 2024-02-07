@@ -1,0 +1,59 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.33.31630.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/kuba/desktop/studia/asid/cssparser/cssparser/sectioncss.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "a82aee3302258f2c6d8e87a2d55d4810de159975e65b05e74c74e66e97aec1b2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/kuba/desktop/studia/asid/cssparser/cssparser/sectioncss.h"
+          },
+          "hashes": {
+            "sha-256": "573fea7f4501a3de6b6a02917998975dbeda6c926bb7962f92020bebf295e6c0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/kuba/desktop/studia/asid/cssparser/cssparser/dlliststring.h"
+          },
+          "hashes": {
+            "sha-256": "0881c58e17fb60753b2e37f92ff578c30abf65b1ce1e556027006f10627ebb9f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/kuba/desktop/studia/asid/cssparser/cssparser/string.h"
+          },
+          "hashes": {
+            "sha-256": "c20288052cd9ab56709b15cca3f7dc8a402417dfe31b525dd795a5bdd7af5a0b"
+          }
+        }
+      ]
+    }
+  ]
+}
